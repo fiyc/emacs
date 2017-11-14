@@ -1,0 +1,13 @@
+** 系统配置
+   [[file:/~/.emacs.d/init.el][主配置目录]]  
+
+   [[file:~/.emacs.d/lisp/init-default.el][基本配置]]  
+
+   [[file:~/.emacs.d/lisp/init-keybind.el][按键绑定配置]]  
+
+** 备忘
+   [[file:d:/Code/fiyc.github.io/readplan.org][个人计划]]
+
+   [[file:~/doc/worklog.org][工作备忘]] 
+
+   [[file:~/doc/emacsNote.org][基础操作总结]]
