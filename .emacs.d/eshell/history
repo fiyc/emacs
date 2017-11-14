@@ -1,99 +1,3 @@
-
-ls
-cd Document/
-ls
-ls -l
-cd .
-clear
-
-ls
-cd ..
-clear
-
-ls
-cd Code/
-ls
-mkdir GitDemo
-cd GitDemo/
-ls
-git init
-ls
-ls -a
-touch first
-git status
-git status --pretty
-clear
-
-git status
-touch .gitignore
-git status
-git add *
-git status
-clear
-
-git status
-git add first 
-git status
-git add *
-git add .gitignore
-git status
-git commit -m "test"
-git status
-clear
-
-git log
-ls
-git status
-git add first 
-git status
-git commit -m "1"
-git status
-git log
-clear
-
-git log
-git config
-clear
-
-ls
-cd ..
-ls
-rm -rf GitDemo/
-ls
-clear
-
-ls
-cd SICP/
-ls
-cd docs/
-ls
-cd 章节/
-ls
-clear
-
-ls -l
-cd ..
-ls
-cd ..
-ls
-cd code/
-ls
-cd demos/
-ls -l
--rw-rw-rw-   1 Administrators Domain U  64 2017-11-08 15:07 gcd.scm
--rw-rw-rw-   1 Administrators Domain U 327 2017-10-25 15:44 sqrt.scm
-clear
-
-ls
-cd ..
-cd exercises/
-ls
-ssh
-clear
-
-ls
-pwd
-cd doc/
 ls
 touch helloWorld.cp
 clear
@@ -126,3 +30,99 @@ clear
 
 clear
 
+ls
+cd ~
+ls
+pwd
+cd ..
+ls
+ls -a
+cd home/
+ls
+ls -a
+cd .emacs.d/
+ls
+cd elpa
+ls
+cd monokai-theme-20171013.236/
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd lisp/
+ls
+ls
+cd ..
+ls l
+ls -l
+cd ..
+ls -l
+ls -l -g
+ls -la
+clear
+
+clear
+
+ls
+cd d:/
+ls
+cd Code/
+ls
+cd ..
+ls
+cd emacs/
+ls
+cd home/
+ls
+ls
+ls -a
+cd .emacs.d/
+ls
+ls -a
+clear
+
+ls
+cd ..
+ls
+git init
+ls
+cd doc/
+ls
+cd ..
+ls
+git status
+git remote -v
+git remote add git@github.com:fiyc/emacs.git origin
+git aremote add
+git remote add
+git remote add origin git@github.com:fiyc/emacs.git
+git remote
+touch .gitignore
+git status
+git add *
+git status
+git add .emacs.d/
+clear
+
+git add .gitignore
+git status
+ls#	new file:   .emacs.d/elpa/smartparens-20171107.658/smartparens-javascript.elc
+clear
+
+ls
+git status
+clear#	.#catalog.org
+clear
+
+git commit -m "my emacs config"
+git status
+ls
+ls -a
+git add catalog.org 
+git status
+git commit -m "add catalog"
+git status
+git branch
+git push origin master

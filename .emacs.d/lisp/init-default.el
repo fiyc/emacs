@@ -19,3 +19,4 @@
 (setq frame-title-format "fiyc@%b");修改title
 (global-hl-line-mode t);高亮当前行
 (setq initial-frame-alist (quote ((fullscreen . maximized))));默认全屏
+(setq make-backup-files nil)
