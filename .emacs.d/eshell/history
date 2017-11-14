@@ -1,0 +1,128 @@
+
+ls
+cd Document/
+ls
+ls -l
+cd .
+clear
+
+ls
+cd ..
+clear
+
+ls
+cd Code/
+ls
+mkdir GitDemo
+cd GitDemo/
+ls
+git init
+ls
+ls -a
+touch first
+git status
+git status --pretty
+clear
+
+git status
+touch .gitignore
+git status
+git add *
+git status
+clear
+
+git status
+git add first 
+git status
+git add *
+git add .gitignore
+git status
+git commit -m "test"
+git status
+clear
+
+git log
+ls
+git status
+git add first 
+git status
+git commit -m "1"
+git status
+git log
+clear
+
+git log
+git config
+clear
+
+ls
+cd ..
+ls
+rm -rf GitDemo/
+ls
+clear
+
+ls
+cd SICP/
+ls
+cd docs/
+ls
+cd 章节/
+ls
+clear
+
+ls -l
+cd ..
+ls
+cd ..
+ls
+cd code/
+ls
+cd demos/
+ls -l
+-rw-rw-rw-   1 Administrators Domain U  64 2017-11-08 15:07 gcd.scm
+-rw-rw-rw-   1 Administrators Domain U 327 2017-10-25 15:44 sqrt.scm
+clear
+
+ls
+cd ..
+cd exercises/
+ls
+ssh
+clear
+
+ls
+pwd
+cd doc/
+ls
+touch helloWorld.cp
+clear
+
+ls
+rm helloWorld.cp*
+ls
+clear
+
+clear
+
+ls
+ls
+cd ..
+cd ..
+cd ..
+ls
+cd Code/
+ls
+cd Blog/
+ls
+cd ..
+cd SICP/
+ls
+cd docs/
+ls
+cd 章节
+ls
+clear
+
+clear
+
