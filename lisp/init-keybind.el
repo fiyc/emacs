@@ -28,6 +28,7 @@
 (global-set-key (kbd "<f3>") 'set-mark-command)
 
 ;; copy region or whole line(global-set-key "\M-w"
+(global-set-key "\M-w"
 (lambda ()
   (interactive)
   (if mark-active
@@ -52,3 +53,5 @@
      (message "killed line")))))
 
 (provide 'init-keybind)
+
+
