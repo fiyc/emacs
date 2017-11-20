@@ -1,128 +1,128 @@
+cd ../../
+ls
+hexo g
+hexo s
+ls
+cd source/
+ls
+cd _posts/
+ls
 cd ..
-ls -l
-ls -l -g
-ls -la
+cd ..
+hexo clean
+hexo g
+hexo s
 clear
-
-clear
-
+
+ls
+cd source/_posts/
+ls
+cd ../
+cd ..
+hexo clean
+hexo g
+hexo s
 ls
 cd d:/
 ls
 cd Code/
 ls
-cd ..
-ls
-cd emacs/
-ls
-cd home/
-ls
-ls
-ls -a
-cd .emacs.d/
-ls
-ls -a
-clear
-
-ls
-cd ..
-ls
-git init
-ls
-cd doc/
-ls
-cd ..
-ls
-git status
-git remote -v
-git remote add git@github.com:fiyc/emacs.git origin
-git aremote add
-git remote add
-git remote add origin git@github.com:fiyc/emacs.git
-git remote
-touch .gitignore
-git status
-git add *
-git status
-git add .emacs.d/
-clear
-
-git add .gitignore
-git status
-ls#	new file:   .emacs.d/elpa/smartparens-20171107.658/smartparens-javascript.elc
-clear
-
-ls
-git status
-clear#	.#catalog.org
-clear
-
-git commit -m "my emacs config"
-git status
-ls
-ls -a
-git add catalog.org 
-git status
-git commit -m "add catalog"
-git status
-git branch
-git push origin master
-ls
-rm catalog.org~
-ls
-celar
-clear
-
-ls a
-ls -a
-rm #catalog.org#
-rm -rf #catalog.org#
-clear
-
-ls
-ls
-git status
-git add all
-clear
-
-git commit -a "remove backup file"
-git status
-git add .emacs.d/*
-git status
-git commit -m "remove backup file"
-3 files changed, 94 insertions(+), 92 dcleareletions(-)
-clear
-
-dir
-git status
-git push origin master
-mit
-cmd
-start
-cmd
-ls
-cd doc/
-ls
-ls
-cd ..
-ls
-cd ..
-cd ..
-ls
-cd Code/
-ls
-cd fiyc.github.io/
-ls
-cd ../SICP/
+cd SICP/
 ls
 cd docs/
 ls
 cd 章节
 ls
-cd ..
-cd ..
 ls
+cd ..
+cd ..
 cd code/
 ls
-cd demos/
-touch list-actions.scm
+cd exercises/
+ls
+ls
+cd ..
+cd ..
+cd code/
+ls
+cd exercises/
+la
+ls -l
+ls
+clear
+
+ls
+cd ..
+cd .
+ls
+cd ..
+ls
+cd docs/
+ls
+cd 章节
+ls
+ls -l
+clear
+
+ls
+git status
+git add .
+git status
+cd ../../
+git add .
+git status
+git commit -m "2.4章大纲"
+clear
+
+ls
+cd docs/
+ls
+cd 章节/
+ls
+clear
+
+ls
+clear
+
+ls
+cd d:/Code/fiyc.github.io/
+ls
+git 
+clear
+
+git
+git -version
+git --version
+cd d:/
+ls
+cd emacs/
+ls
+cd home/
+ls
+git status
+cd .emacs.d/
+ls
+clear
+
+git status
+git diff init.el 
+clear
+
+ls
+open
+explorer .
+explorer 
+ls
+cd ..
+ls
+cd home/
+ls
+cd .emacs.d/
+ls
+cd eshell/
+ls
+touch alias
+la
+ls
+open
+open .
