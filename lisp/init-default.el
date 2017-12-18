@@ -1,15 +1,18 @@
+(provide 'init-default)
 (setq visible-bell t);关闭错误铃声
-;(setq inhibit-splash-screen 1)
+;;(setq inhibit-splash-screen 1)
+(setq inhibit-startup-message t)
+(setq gnus-inhibit-startup-message t)
 (global-linum-mode 1);显示行号
 (setq linum-format "%d ");行号格式
 (setq user-full-name "yif");设置用户名
 (setq usail-address "cyf30856@ly.com");设置邮箱
 (auto-image-file-mode)
-(set-default-font "宋体-11");设置字体大小
+;;(setq cursor-type 'bar);修改光标样式
+(set-default-font "宋体-14");设置字体大小
 (fset 'yes-or-no-p 'y-or-n-p);将yes or no 改为 y or n
-(setq default-tab-width 4);tab缩进为4
+(setq default-tab-width 2);tab缩进为4
 (scroll-bar-mode 0);关闭滚动条
-(provide 'init-default)
 (setq defautl-buffer-file-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
 (setq org-export-backends (quote (ascii html icalendar latex md)))
@@ -21,4 +24,10 @@
 (setq initial-frame-alist (quote ((fullscreen . maximized))));默认全屏
 (setq make-backup-files nil)
 (show-paren-mode t)
+(global-company-mode t)
 (setq show-paren-style 'parentheses)
+(require 'recentf)
+(recentf-mode t)
+(setq recentf-max-menu-items 25)
+
+

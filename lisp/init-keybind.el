@@ -52,6 +52,7 @@
   (line-end-position))
      (message "killed line")))))
 
+(global-set-key "\C-x\ \C-r" 'recentf-open-files)
 (provide 'init-keybind)
 
 

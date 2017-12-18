@@ -1,3 +1,4 @@
 alias open explorer $1
 alias ll ls -l
 alias la ls -la
+alias lt ls -t1

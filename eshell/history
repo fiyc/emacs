@@ -1,128 +1,128 @@
-cd ../../
+git push origin master
+git pull
+git push
+git pull origin master
+git status
+git pull
+git commit -m "merge"
+git pull
+git push origin master
+ll
+cd 杂
 ls
-hexo g
-hexo s
-ls
-cd source/
-ls
-cd _posts/
-ls
+mv github_hexo.md 使用hexo在github上搭建博客.md
 cd ..
-cd ..
-hexo clean
-hexo g
-hexo s
+git add .
+git commit -m "change the name"
+git push origin master
+ls
+cd Documents/recording/
+ll
+cd 机器学习/
+ls
+python
 clear
-
-ls
-cd source/_posts/
-ls
-cd ../
+
 cd ..
-hexo clean
-hexo g
-hexo s
+git 
+git status
+git add .
+git commit -m "感知器的代码实现"
+git push origin master
+git add .
+git commit -m "感知器的代码实现"
+git push origin master
+python
+git add .
+git commit -m "数据解析和可视化"
+git push origin master
+git add .
+git commit -m "数据解析和可视化"
+git push origin master
+ll
+clear
+
 ls
-cd d:/
+cd Documents/recording/
 ls
-cd Code/
+cd 机器学习/
+ls
+python
+python
+clear
+
+python -v
+clear
+
+cd ..
+git add .
+git commit -m "结束"
+git push origin master
+cd 机器学习/
+ll
+ll
+subl 01-机器学习-实现简单神经网络.md 
+sub 01-机器学习-实现简单神经网络.md 
+open .
+open 
+clear
+
+open ./
+explorer .
+cd ..
+git status
+git add .
+git commit -m "update"
+git push origin master
+clear
+
+ll
+cd SICP/
+ls
+ll
+lt
+ls
+cd Documents/
+ls
+ll
+ls
+cd Documents/recording/
 ls
 cd SICP/
 ls
-cd docs/
-ls
-cd 章节
-ls
-ls
-cd ..
-cd ..
-cd code/
-ls
-cd exercises/
-ls
-ls
-cd ..
-cd ..
-cd code/
-ls
-cd exercises/
-la
-ls -l
-ls
-clear
-
-ls
-cd ..
-cd .
-ls
-cd ..
-ls
-cd docs/
-ls
-cd 章节
-ls
-ls -l
-clear
-
-ls
-git status
+lt
 git add .
-git status
-cd ../../
+git commit -m "好玩的练习"
+git push origin master
+clear
+
 git add .
-git status
-git commit -m "2.4章大纲"
+git commit -m "日常"
+git push origin master
+run-scheme 
+git add .
+git commit -m "3.1 finish"
+git push origin master
+f165da2..e69177e  master -clear> master
 clear
-
+
+ll
 ls
-cd docs/
+cd Documents/recording/
 ls
-cd 章节/
+cd SICP/
 ls
+lt
 clear
-
+
 ls
-clear
-
+cd Documents/
 ls
-cd d:/Code/fiyc.github.io/
+cd recording/
 ls
-git 
-clear
-
-git
-git -version
-git --version
-cd d:/
+cd SICP/
 ls
-cd emacs/
+lt
 ls
-cd home/
+cd lisp
 ls
-git status
-cd .emacs.d/
-ls
-clear
-
-git status
-git diff init.el 
-clear
-
-ls
-open
-explorer .
-explorer 
-ls
-cd ..
-ls
-cd home/
-ls
-cd .emacs.d/
-ls
-cd eshell/
-ls
-touch alias
-la
-ls
-open
-open .

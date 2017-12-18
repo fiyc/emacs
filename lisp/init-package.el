@@ -6,24 +6,15 @@
 
 (require 'cl)
 
-;; Add Packages
 (defvar my/packages '(
-		;; --- Auto-completion ---
 		company
-		;; --- Better Editor ---
-		hungry-delete
 		swiper
 		counsel
 		smartparens
-		;; --- Major Mode ---
 		js2-mode
-		;; --- Minor Mode ---
 		nodejs-repl
 		exec-path-from-shell
-		;; --- Themes ---
 		monokai-theme
-		;; solarized-theme
-
 		))
 
  (setq package-selected-packages my/packages)
