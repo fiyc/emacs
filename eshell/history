@@ -1,56 +1,3 @@
-git push origin master
-git pull
-git push
-git pull origin master
-git status
-git pull
-git commit -m "merge"
-git pull
-git push origin master
-ll
-cd 杂
-ls
-mv github_hexo.md 使用hexo在github上搭建博客.md
-cd ..
-git add .
-git commit -m "change the name"
-git push origin master
-ls
-cd Documents/recording/
-ll
-cd 机器学习/
-ls
-python
-clear
-
-cd ..
-git 
-git status
-git add .
-git commit -m "感知器的代码实现"
-git push origin master
-git add .
-git commit -m "感知器的代码实现"
-git push origin master
-python
-git add .
-git commit -m "数据解析和可视化"
-git push origin master
-git add .
-git commit -m "数据解析和可视化"
-git push origin master
-ll
-clear
-
-ls
-cd Documents/recording/
-ls
-cd 机器学习/
-ls
-python
-python
-clear
-
 python -v
 clear
 
@@ -126,3 +73,56 @@ lt
 ls
 cd lisp
 ls
+ls
+cd .emacs.d
+ls
+la
+git status
+git add .
+git commit -m "new config"
+git push origin master
+git push origin master
+ll
+clear
+
+git add .
+git commit -m "又一节"
+git push origin master
+ls
+rm master
+git add .
+git commit -m "remove"
+git push origin master
+git add .
+git commit -m "笔误"
+git push origin master
+clear
+
+ls
+ls
+cd Documents/
+ls
+cd recording/
+ll
+cd SICP/
+ll
+lt
+clear
+
+lt
+touch 3_4_并发时间是一个本质问题
+mv 3_4_并发时间是一个本质问题 3_4_并发时间是一个本质问题.md
+clear
+
+clear
+
+lt
+git add .
+git commit -m "两节目录	"
+git push origin master
+clear
+
+data
+date
+clear
+

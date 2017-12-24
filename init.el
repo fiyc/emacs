@@ -17,6 +17,6 @@
 (setq auto-mode-alist (cons '("\\.markdown" . markdown-mode) auto-mode-alist))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
-(split-window-below)
-(other-window 1)
+;;(split-window-below)
+;;(other-window 1)
 (recentf-open-files)

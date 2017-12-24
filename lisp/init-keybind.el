@@ -53,6 +53,11 @@
      (message "killed line")))))
 
 (global-set-key "\C-x\ \C-r" 'recentf-open-files)
+(global-set-key "\C-x\ \C-b"
+								(lambda ()
+									(interactive)
+									(list-buffers)
+									(other-window 1)))
 (provide 'init-keybind)
 
 
