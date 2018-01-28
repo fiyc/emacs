@@ -2,3 +2,4 @@ alias open explorer $1
 alias ll ls -l
 alias la ls -la
 alias lt ls -t1
+alias gitpush git add .;git commit -m "auto commit"; git push origin master;
