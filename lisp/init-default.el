@@ -9,14 +9,14 @@
 (setq usail-address "cyf30856@ly.com");设置邮箱
 (auto-image-file-mode)
 ;;(setq cursor-type 'bar);修改光标样式
-(set-default-font "宋体-14");设置字体大小
+(set-default-font "Consolas-12");设置字体大小
 (fset 'yes-or-no-p 'y-or-n-p);将yes or no 改为 y or n
 (setq default-tab-width 2);tab缩进为4
 (scroll-bar-mode 0);关闭滚动条
 (setq defautl-buffer-file-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
 (setq org-export-backends (quote (ascii html icalendar latex md)))
-;;(load-theme 'monokai t);设置主体
+(load-theme 'monokai t);设置主体
 (tool-bar-mode 0);关闭工具栏
 (menu-bar-mode 0);关闭菜单栏
 (setq frame-title-format "fiyc@%b");修改title
@@ -29,5 +29,28 @@
 (require 'recentf)
 (recentf-mode t)
 (setq recentf-max-menu-items 25)
+;;(elpy-enable)
+;;(setq elpy-rpc-backend "jedi")
 
+;;打开hidenshow
+(setq hs-allow-nesting t)
 
+(add-hook 'c-mode-common-hook
+          (lambda ()
+            (hs-minor-mode 1)
+            ))
+
+(add-hook 'emacs-lisp-mode-hook
+          (lambda()
+            (hs-minor-mode 1)))
+
+(add-hook 'tcl-mode-hook (lambda ()
+                           (hs-minor-mode 1)
+                           ))
+
+(add-hook 'js-mode-hook (lambda ()
+															(hs-minor-mode 1)
+															))
+
+(add-hook 'python-mode-hook (lambda()
+															(hs-minor-mode 1)))

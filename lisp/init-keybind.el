@@ -27,6 +27,20 @@
 
 (global-set-key (kbd "<f3>") 'set-mark-command)
 
+(global-set-key (kbd "C-,") 'hs-toggle-hiding)
+
+(defun open-up-folding()
+	(interactive)
+	(hs-show-all)
+	(global-set-key (kbd "C-.") 'close-folding))
+
+(defun close-folding()
+	(interactive)
+	(hs-hide-all)
+	(global-set-key (kbd "C-.") 'open-up-folding))
+
+(global-set-key (kbd "C-.") 'close-folding)
+
 ;; copy region or whole line(global-set-key "\M-w"
 (global-set-key "\M-w"
 (lambda ()

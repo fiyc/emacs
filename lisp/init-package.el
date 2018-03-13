@@ -15,6 +15,8 @@
 		nodejs-repl
 		exec-path-from-shell
 		monokai-theme
+;;		elpy
+		flycheck
 		))
 
  (setq package-selected-packages my/packages)
@@ -34,5 +36,9 @@
  ;; Find Executable Path on OS X
  (when (memq window-system '(mac ns))
    (exec-path-from-shell-initialize))
+
+;(when (require 'flycheck nil t)
+;  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+;  (add-hook 'elpy-mode-hook 'flycheck-mode))
 
 (provide 'init-package)
