@@ -17,7 +17,7 @@
 (setq defautl-buffer-file-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
 (setq org-export-backends (quote (ascii html icalendar latex md)))
-;;(load-theme 'monokai t);设置主体
+(load-theme 'monokai t);设置主体
 (tool-bar-mode 0);关闭工具栏
 (menu-bar-mode 0);关闭菜单栏
 (setq frame-title-format "fiyc@%b");修改title
