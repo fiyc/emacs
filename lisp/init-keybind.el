@@ -72,6 +72,8 @@
 									(interactive)
 									(list-buffers)
 									(other-window 1)))
+
+(global-set-key (kbd "<f8>") 'neotree-toggle)
 (provide 'init-keybind)
 
 

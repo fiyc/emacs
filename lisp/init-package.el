@@ -15,6 +15,7 @@
 		nodejs-repl
 		exec-path-from-shell
 		monokai-theme
+		neotree
 ;;		elpy
 		flycheck
 		))
