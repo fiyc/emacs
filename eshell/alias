@@ -1,5 +1,5 @@
-alias open explorer $1
-alias ll ls -l
-alias la ls -la
-alias lt ls -t1
 alias gpush git add .;git commit -m "auto commit"; git push origin $1;
+alias lt ls -t1
+alias la ls -la
+alias ll ls -l
+alias open explorer $1
